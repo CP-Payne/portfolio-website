@@ -2,19 +2,26 @@ import { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../assets/logo-2.png";
+import Logo from "../assets/logo-2-crop.png";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div className="mt-6">
-        <img src={Logo} alt="Logo Image" width={120} />
+    <div className="fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+      <div className="mt-7">
+        <Link to="home" smooth={true} duration={500}>
+          <img
+            src={Logo}
+            alt="Logo Image"
+            className="hover:cursor-pointer pb-0"
+            style={{ width: "150px", height: "80px" }}
+          />
+        </Link>
       </div>
       {/* Menu */}
-      <ul className="hidden md:flex ">
+      <ul className="hidden md:flex font-bold text-[1.2rem]">
         <li>
           <Link to="home" smooth={true} duration={500}>
             Home
