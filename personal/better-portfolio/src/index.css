@@ -11,6 +11,19 @@
     li {
         @apply px-4;
         @apply cursor-pointer;
-        @apply hover:text-[#DEA057];
+        @apply hover:text-mainGoldColor;
     }
+}
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.content-div:hover {
+    background-image: linear-gradient(to right,
+            rgba(222, 165, 87, 0.5),
+            hsla(36, 65%, 54%, 0.7)) !important;
 }
