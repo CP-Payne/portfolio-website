@@ -2,7 +2,10 @@
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 
-const Home = () => {
+const Home = ({ activeSection, setActiveSection }) => {
+  const setActiveSectionToSkills = () => {
+    setActiveSection(2);
+  };
   return (
     <div name="home" className="w-full h-screen bg-[#212121]">
       {/* Container #0a192f */}
@@ -20,7 +23,10 @@ const Home = () => {
           experience as a penetration tester.
         </p>
         <div>
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-mainGoldColor hover:border-mainGoldColor">
+          <button
+            onClick={setActiveSectionToSkills}
+            className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-mainGoldColor hover:border-mainGoldColor"
+          >
             <Link to="skills" smooth={true} duration={500}>
               View Work
             </Link>
