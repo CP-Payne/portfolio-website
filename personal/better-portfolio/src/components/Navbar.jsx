@@ -14,14 +14,15 @@ const Navbar = ({ activeSection, setActiveSection }) => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[100px] flex justify-between items-center px-4 bg-mainLightGray text-gray-300">
-      <div className="mt-7">
+    <div className="fixed w-full h-[100px] max-md:h-[50px] flex justify-between items-center px-4 bg-mainLightGray text-gray-300">
+      <div className="mt-7 max-md:mt-3">
         <Link to="home" smooth={true} duration={500}>
           <img
             src={Logo}
             alt="Logo Image"
-            className="hover:cursor-pointer pb-0"
-            style={{ width: "150px", height: "80px" }}
+            className="hover:cursor-pointer pb-0 max-md:w-[60px] w-[90px]"
+            //style={{ width: "150px", height: "80px" }}
+            //style={{ width: "75px", height: "40px" }}
           />
         </Link>
       </div>
