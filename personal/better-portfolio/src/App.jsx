@@ -24,9 +24,11 @@ function App() {
 
   useEffect(() => {
     const handleScroll = (e) => {
-      if (!canScroll) {
-        e.preventDefault(); // Prevent default scrolling when canScroll is false
-        return; // Exit the function early if scrolling is not allowed
+      if (window.innerWidth >= 743) {
+        if (!canScroll) {
+          e.preventDefault(); // Prevent default scrolling when canScroll is false
+          return; // Exit the function early if scrolling is not allowed
+        }
       }
 
       // Assuming canScroll is initially true, then...
@@ -59,9 +61,11 @@ function App() {
   }, [activeSection, canScroll]);
 
   useEffect(() => {
-    if (canScroll) {
-      // Only scroll to the section if scrolling is enabled
-      scrollToSection(sections[activeSection]);
+    if (window.innerWidth >= 700) {
+      if (canScroll) {
+        // Only scroll to the section if scrolling is enabled
+        scrollToSection(sections[activeSection]);
+      }
     }
   }, [activeSection, canScroll]);
   return (

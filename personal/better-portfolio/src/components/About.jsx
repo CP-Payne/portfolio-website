@@ -7,7 +7,7 @@ const About = () => {
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full gap-8">
-          <div className="sm:text-center pb-8 mb-9 max-md:mb-1">
+          <div className="text-center pb-8 mb-9 max-md:mb-1">
             <p className="text-4xl font-bold inline border-b-4 border-mainGoldColor">
               About
             </p>
@@ -24,7 +24,7 @@ const About = () => {
                 alt="Portfolio Picture"
               />
             </div>
-            <div className="sm:text-center text-4xl font-bold">
+            <div className="text-center text-4xl font-bold max-md:text-2xl">
               <p>
                 Hi. I'm Charles, nice to meet you. Please take a look around.{" "}
               </p>

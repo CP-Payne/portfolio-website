@@ -14,8 +14,8 @@ const Navbar = ({ activeSection, setActiveSection }) => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[100px] max-md:h-[50px] flex justify-between items-center px-4 bg-mainLightGray text-gray-300">
-      <div className="mt-7 max-md:mt-3">
+    <div className="fixed w-full h-[100px] max-md:h-[50px] max-md:pb-3 flex justify-between items-center px-4 bg-mainLightGray text-gray-300 ">
+      <div className="mt-3">
         <Link to="home" smooth={true} duration={500}>
           <img
             src={Logo}
