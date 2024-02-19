@@ -1,5 +1,7 @@
-import React from "react";
 import { data } from "../data/data.js";
+import portfolio from "../data/portfolio.js";
+import ProjectItem from "./ProjectItem";
+import ProjectItemMobile from "./ProjectItemMobile.jsx";
 
 const Work = () => {
   // projects file
@@ -30,8 +32,8 @@ const Work = () => {
               flex justify-center text-center items-center mx-auto content-div hover:shadow-lightGoldColor hover:shadow-lg hover:scale-105 duration-500"
             >
               {/* Hover effect for images */}
-              <div className="opacity-0 group-hover:opacity-100 ">
-                <span className="text-2xl max-md:text-xl font bold text-white tracking-wider ">
+              <div className="opacity-0 group-hover:opacity-100">
+                <span className="text-2xl max-md:text-xl font bold text-white tracking-wider">
                   {item.name}
                 </span>
                 <div className="pt-8 text-center ">
@@ -56,6 +58,18 @@ const Work = () => {
                 </div>
               </div>
             </div>
+          ))}
+        </div>
+        {/*Container for second project style*/}
+        <div className="flex flex-col md:flex-row items-center justify-center gap-9">
+          {portfolio.map((project, index) => (
+            <ProjectItemMobile
+              key={index}
+              imgUrl={project.imgUrl}
+              title={project.title}
+              stack={project.stack}
+              link={project.link}
+            />
           ))}
         </div>
       </div>
