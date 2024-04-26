@@ -1,4 +1,4 @@
-import PortPic from "../assets/portpic.jpg";
+import PortPic from "../assets/meportpic.jpeg";
 const About = () => {
   return (
     <div
