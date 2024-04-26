@@ -127,7 +127,9 @@ const Navbar = ({ activeSection, setActiveSection }) => {
         <ul>
           <li className="w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
-              href="/"
+              href="https://www.linkedin.com/in/charles-payne-41b533226"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Linkedin{" "}
@@ -139,7 +141,9 @@ const Navbar = ({ activeSection, setActiveSection }) => {
           </li>{" "}
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
-              href="/"
+              href="https://github.com/CP-Payne"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Github
@@ -148,7 +152,7 @@ const Navbar = ({ activeSection, setActiveSection }) => {
           </li>{" "}
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
-              href="/"
+              href="mailto:charlpayne1@gmail.com"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Email <HiOutlineMail size={30} />
@@ -156,7 +160,9 @@ const Navbar = ({ activeSection, setActiveSection }) => {
           </li>{" "}
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
-              href="/"
+              href="/files/Charles_Payne_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Resume <BsFillPersonLinesFill size={30} />
