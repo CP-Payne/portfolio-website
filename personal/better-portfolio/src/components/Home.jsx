@@ -2,6 +2,7 @@
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 
+
 const Home = ({ activeSection, setActiveSection }) => {
   const setActiveSectionToSkills = () => {
     setActiveSection(2);
@@ -34,6 +35,7 @@ const Home = ({ activeSection, setActiveSection }) => {
               <HiArrowNarrowRight className="ml-3" />
             </span>{" "}
           </button>
+
         </div>
       </div>
     </div>
