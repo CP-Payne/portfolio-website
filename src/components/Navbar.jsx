@@ -160,7 +160,7 @@ const Navbar = ({ activeSection, setActiveSection }) => {
           </li>{" "}
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
-              href="/files/Charles_Payne_CV.pdf"
+              href="/portfolio-website/files/Charles_Payne_CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex justify-between items-center w-full text-gray-300"

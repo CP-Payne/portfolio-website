@@ -82,13 +82,13 @@ const Contact = () => {
           <li className="w-[75px] h-[75px] flex justify-between items-center  bg-[#565f69] shadow-lg shadow-[#040c16]">
             <a
               href="/portfolio-website/files/Charles_Payne_CV.pdf"
-              // href={`${process.env.PUBLIC_URL}/files/Charles_Payne_CV.pdf`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col justify-between items-center w-full text-gray-300"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
+
           </li>
         </ul>
       </div>
