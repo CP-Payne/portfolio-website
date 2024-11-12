@@ -31,11 +31,11 @@ const About = () => {
             </div>
             <div className="text-center mt-7 max-md:pb-16">
               <p>
-                I am passionate about building excellent software that improves
-                the lives of those around me. I specialize in creating sotware
-                for clients ranging from individuals and small-businesses all
-                the way to large enterprise corporations. What would you do if
-                you had a software expert available at your fingertips.
+                I am a software engineer with a solid foundation in cybersecurity
+                and a passion for backend development. I love creating robust APIs
+                and backend solutions, primarily in Go and Python. I hold a Bachelor
+                of Computing degree from Belgium Campus ITversity and am constantly
+                pursuing new skills and knowledge.
               </p>
             </div>
           </div>
