@@ -19,9 +19,7 @@ const Home = ({ activeSection, setActiveSection }) => {
           I'm a Graduate Software Engineer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I am a software engineering student, graduating in two months. I'm
-          passionate about backend development with 2 years of cybersecurity
-          experience as a penetration tester.
+        I am a software engineer passionate about backend development, with over a year of experience in cybersecurity as a penetration tester.
         </p>
         <div>
           <button
