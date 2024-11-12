@@ -11,7 +11,7 @@ const Contact = () => {
     >
       <form
         method="POST"
-        action="https://getform.io/f/a699a1b2-f225-434e-b317-1fbbde8e006c"
+        action="https://getform.io/f/nadoqgxb"
         className="flex flex-col max-w-[600px] w-full"
       >
         <div className="pb-8 max-md:pb-4">
@@ -81,7 +81,8 @@ const Contact = () => {
           </li>{" "}
           <li className="w-[75px] h-[75px] flex justify-between items-center  bg-[#565f69] shadow-lg shadow-[#040c16]">
             <a
-              href="/files/Charles_Payne_CV.pdf"
+              href="/portfolio-website/files/Charles_Payne_CV.pdf"
+              // href={`${process.env.PUBLIC_URL}/files/Charles_Payne_CV.pdf`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col justify-between items-center w-full text-gray-300"
